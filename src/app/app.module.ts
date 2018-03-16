@@ -10,7 +10,6 @@ import { TwoChildComponent } from './two-child/two-child.component';
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,

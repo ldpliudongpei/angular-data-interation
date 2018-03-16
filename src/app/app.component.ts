@@ -8,7 +8,7 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  agreectrl;
 
   constructor(
     private appService: AppService
@@ -17,8 +17,6 @@ export class AppComponent {
   }
 
 
-  onIndexChange(event){
-    console.log(event)
-  }
+
 }
 
